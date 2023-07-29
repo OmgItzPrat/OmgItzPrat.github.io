@@ -20,10 +20,10 @@ namespace QuizApp
             //Method is a tool for programming (you need it).
             int totalQuestion = 0;
             int score = 0;
-            Console.WriteLine("Pratyush Khatri");
-            Console.WriteLine("Welcome to my Quiz Game!!!");
+            Console.WriteLine("Group 5 Team Members: Pratyush Khatri, Erina Munir, Rachit Pandeya, Kushal BC");
+            Console.WriteLine("Welcome to our Quiz Game!!!");
             Console.WriteLine("Q1 out of Q4: True or False? 5 times 5 = 25");
-            string user_type = Console.ReadLine();
+            string user_type = Console.ReadLine().ToLower();
             if(user_type == "true")
             {
                 Console.WriteLine("Correct Answer");
@@ -39,7 +39,7 @@ namespace QuizApp
 
 
             Console.WriteLine("Q2 out of Q4: True or False? Elephants are the biggest animals in the world");
-            string user_type_2 = Console.ReadLine();
+            string user_type_2 = Console.ReadLine().ToLower();
             if (user_type_2 == "false")
             {
                 Console.WriteLine("Correct Answer");
@@ -55,7 +55,7 @@ namespace QuizApp
 
 
             Console.WriteLine("Q3 out of Q4: True or False? Zebras are known for having orange stripes");
-            string user_type_3 = Console.ReadLine();
+            string user_type_3 = Console.ReadLine().ToLower();
             if (user_type_3 == "false")
             {
                 Console.WriteLine("Correct Answer");
@@ -71,7 +71,7 @@ namespace QuizApp
 
 
             Console.WriteLine("Q4 out of Q4: True or False? Ronaldo plays golf");
-            string user_type_4 = Console.ReadLine();
+            string user_type_4 = Console.ReadLine().ToLower();
             if (user_type_4 == "false")
             {
                 Console.WriteLine("Correct Answer");
